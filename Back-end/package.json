@@ -1,0 +1,19 @@
+{
+  "name": "portal_ubajara_online",
+  "version": "1.0.0",
+  "description": "O portal de Anúncios Ubajara busca ganhar espaço online, sendo uma plataforma web desenvolvida para facilitar a compra e venda de produtos e serviços na cidade de Ubajara e região. Com uma interface amigável e intuitiva, o portal permite que os usuários publiquem anúncios gratuitamente, categorizem seus produtos, e entrem em contato diretamente com os vendedores. Além disso, o portal oferece funcionalidades como busca, filtros por categoria e localização, e um sistema de avaliação para garantir a confiança entre compradores e vendedores. O objetivo do Portal de Anúncios Ubajara é promover o comércio local, adiquirindo receita nos anúncios, conectando pessoas e impulsionando a economia da região.",
+  "main": "src/Servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/Servidor.js"
+  },
+  "keywords": [],
+  "author": "Ramon Brandão",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1"
+  }
+}
